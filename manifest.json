@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "EasyCalc",
+  "short_name": "EasyCalc",
+  "description": "EasyCalc is a easy to use caculator that is fit for every day math.",
+
+  "version": "0.0.2.8",
+
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}
