@@ -12,6 +12,15 @@ buttons.prototype.clear = function(){
   display.innerHTML = "0";
 }
 
+buttons.prototype.zero = function(){
+  var display = id("text");
+  if(display.innerHTML == "0"){
+    display.innerHTML = "0";
+  }else{
+    display.innerHTML += "0";
+  }
+}
+
 buttons.prototype.one = function(){
   var display = id("text");
   if(display.innerHTML == "0"){
