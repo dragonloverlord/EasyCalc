@@ -20,3 +20,12 @@ buttons.prototype.one = function(){
     display.innerHTML += "1";
   }
 }
+
+buttons.prototype.two = function(){
+  var display = id("text");
+  if(display.innerHTML == "0"){
+    display.innerHTML = "2";
+  }else{
+    display.innerHTML += "2";
+  }
+}
