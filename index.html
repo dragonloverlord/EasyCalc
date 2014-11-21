@@ -9,12 +9,13 @@
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
 </head>
 <body>
-  <div class="main" id="body">
+  <div ng-controller="buttons as button" class="main" id="body">
     <div class="display" id="display">
       <div id="text" class="text">0</div>
     </div>
     <div class="buttons" id="buttons">
-      <div ng-click="buttons.clear();" class="clear" id="clear">AC</div>
+      <div ng-click="button.clear();" class="button-single" id="clear">AC</div>
+      <div ng-click="button.one();" class="button-single" id="one">1</div>
     </div>
   </div>
 </body>
