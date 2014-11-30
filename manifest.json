@@ -4,7 +4,7 @@
   "short_name": "EasyCalc",
   "description": "EasyCalc is a easy to use caculator that is fit for every day math.",
 
-  "version": "0.0.2.8",
+  "version": "0.1.6.8",
 
   "icons": {
     "16": "assets/icon_16.png",
