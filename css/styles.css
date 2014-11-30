@@ -37,3 +37,13 @@
   display:table-cell;
   vertical-align:middle;
 }
+
+.sub{
+  vertical-align:sub;
+  font-size:smaller;
+}
+
+.sup{
+  vertical-align:super;
+  font-size:smaller;
+}
