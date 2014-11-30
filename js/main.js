@@ -38,3 +38,12 @@ buttons.prototype.two = function(){
     display.innerHTML += "2";
   }
 }
+
+buttons.prototype.three = function(){
+  var display = id("text");
+  if(display.innerHTML == "0"){
+    display.innerHTML = "3";
+  }else{
+    display.innerHTML += "3";
+  }
+}
