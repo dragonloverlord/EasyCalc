@@ -28,6 +28,8 @@
 .button-single{
   min-width:10%;
   min-height:10%;
+  max-width:10%;
+  max-height:10%;
   border:1px solid #111;
   background-color:#555;
   color:#ddd;
